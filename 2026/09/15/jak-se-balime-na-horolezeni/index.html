@@ -1,0 +1,289 @@
+<!DOCTYPE html><html lang="cs" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Jak se balíme na horolezení? | Bez filtrů z našich výprav.</title><meta name="author" content="Lukáš Drahník"><meta name="copyright" content="{&quot;enable&quot;:false}"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Potřeba pravidelně kontrolovat: Kontrola počasí (meteoblue, bergfex a radareu.cz)  Předem potřeba zajít: Zkompletovat vybavení &#x2F; dopůjčit si zbytek na základě včasné rezervace (turistické mačky a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Jak se balíme na horolezení?">
+<meta property="og:url" content="https://nahrebeni.github.io/2026/09/15/jak-se-balime-na-horolezeni/index.html">
+<meta property="og:site_name" content="Bez filtrů z našich výprav.">
+<meta property="og:description" content="Potřeba pravidelně kontrolovat: Kontrola počasí (meteoblue, bergfex a radareu.cz)  Předem potřeba zajít: Zkompletovat vybavení &#x2F; dopůjčit si zbytek na základě včasné rezervace (turistické mačky a">
+<meta property="og:locale">
+<meta property="og:image" content="https://nahrebeni.github.io/img/butterfly-icon.png">
+<meta property="article:published_time" content="2026-09-15T08:58:16.197Z">
+<meta property="article:modified_time" content="2026-09-15T08:58:16.197Z">
+<meta property="article:author" content="Lukáš Drahník">
+<meta property="article:tag" content="plánování">
+<meta property="article:tag" content="vybavení">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://nahrebeni.github.io/img/butterfly-icon.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Jak se balíme na horolezení?",
+  "url": "https://nahrebeni.github.io/2026/09/15/jak-se-balime-na-horolezeni/",
+  "image": "https://nahrebeni.github.io/img/butterfly-icon.png",
+  "datePublished": "2026-09-15T08:58:16.197Z",
+  "dateModified": "2026-09-15T08:58:16.197Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Lukáš Drahník",
+      "url": "https://nahrebeni.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://nahrebeni.github.io/2026/09/15/jak-se-balime-na-horolezeni/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.7.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Jak se balíme na horolezení?',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.2"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/hintergrat.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">NaHřebeni.info</span></a><a class="nav-page-title" href="/"><span class="site-name">Jak se balíme na horolezení?</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  Back to Home</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">Jak se balíme na horolezení?</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2026-09-15T08:58:16.197Z" title="Created 2026-09-15 08:58:16">2026-09-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2026-09-15T08:58:16.197Z" title="Updated 2026-09-15 08:58:16">2026-09-15</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="Potreba-pravidelne-kontrolovat"><a href="#Potreba-pravidelne-kontrolovat" class="headerlink" title="Potřeba pravidelně kontrolovat:"></a>Potřeba pravidelně kontrolovat:</h1><ul>
+<li>Kontrola počasí (meteoblue, bergfex a radareu.cz)</li>
+</ul>
+<h1 id="Predem-potreba-zajit"><a href="#Predem-potreba-zajit" class="headerlink" title="Předem potřeba zajít:"></a>Předem potřeba zajít:</h1><ul>
+<li>Zkompletovat vybavení &#x2F; dopůjčit si zbytek na základě včasné rezervace (turistické mačky a turistický cepín půjčuje RockPoint)</li>
+<li>Vybrat a vyměnit CZK na Eura (sloužící k zaplacení chat)</li>
+<li>Zarezervovat místa na chatách (pokud je to potřeba vzhledem k vytíženosti, vzít v potaz storno poplatek)</li>
+<li>Nakoupit (jerky, proteinové tyčky a oříšky (protein), sušené ovoce a gelové pytlíčky (cukry), jednorázové jídlo v pytlíku na zalití do něj horkou vodou, hotovky, maso ve sklenici a v případě autoledničky: tvarohy a parenice)</li>
+</ul>
+<h1 id="Predem-potreba-zaridit"><a href="#Predem-potreba-zaridit" class="headerlink" title="Předem potřeba zařídit:"></a>Předem potřeba zařídit:</h1><ul>
+<li>Pojištění do nemocnic v zahraničí pokrývající datumy rizikové horolezení (AirBank umožňuje jen konkrétní dni)</li>
+<li>Mít Alpenveiren pro případný zásah horské služby a slevu na horských chatách spadajících pod něj</li>
+<li>Informovat se o stavu cesty (instagram chat v okolí výstupu, telefonem na chatu) a naplánovat trasu (vzít v potaz, že chaty podávají večeři už mezi 18-19h)</li>
+</ul>
+<h1 id="Par-dni-pred-odjezdem"><a href="#Par-dni-pred-odjezdem" class="headerlink" title="Pár dní před odjezdem:"></a>Pár dní před odjezdem:</h1><ul>
+<li>Impregnace kožených rukavic (Hestra stačí mnout nebo dát na sluníčko)</li>
+</ul>
+<h1 id="Den-pred-odjezdem-potreba-zkontrolovat"><a href="#Den-pred-odjezdem-potreba-zkontrolovat" class="headerlink" title="Den před odjezdem potřeba zkontrolovat:"></a>Den před odjezdem potřeba zkontrolovat:</h1><ul>
+<li>100% nabití všech elektronických zařízení (čelovka, hodinky, mobil, power banka, ..)</li>
+</ul>
+<h1 id="Tesne-pred-odjezdem"><a href="#Tesne-pred-odjezdem" class="headerlink" title="Těsně před odjezdem:"></a>Těsně před odjezdem:</h1><ul>
+<li>Vypnout elektrická zařízení ze zásuvky (čistička vzduchu IonCare i ve vypnutém režimu bere elektřinu, varnou konvici)</li>
+</ul>
+<h1 id="Pred-kazdym-vystupem"><a href="#Pred-kazdym-vystupem" class="headerlink" title="Před každým výstupem:"></a>Před každým výstupem:</h1><ul>
+<li>Kontrola počasí (meteoblue, bergfex, nějaký radar např. radareu.cz)</li>
+<li>Informovat se o stavu cesty na místě (personál chat, spolunocležníci) nebo distančně (instagram chat v okolí, telefonem na jinou chatu)</li>
+<li>Informovat o svých planech někoho dalšímu a domluvit se s ním i na kontrole po sestupu  (typicky chata kde se bude spát nebo někdo z rodiny, kamarád)</li>
+<li>Preventivně si nalepit náplasti (typicky na paty)</li>
+</ul>
+<h1 id="Na-chatu"><a href="#Na-chatu" class="headerlink" title="Na chatu:"></a>Na chatu:</h1><ul>
+<li>Bílá paní</li>
+<li>Hygienická taštička (špunty do uší, jelenní lůj, cestovní mycí gel &amp; šampón 2v1, cestovní kartáček s pastou, cestovní opal. krém, potr. pytlíky, kapesníčky)</li>
+<li>Týkající se jídla a pití (plastový příbor nebo alespoň lžička, tablety na čištění vody - na chatách nebývá voda označená za pitnou)</li>
+<li>Lehký rychleschnoucí ručník</li>
+<li>Levné papuče co se dostávají zadarmo na hotelech (bývají k dispozici erární na chatách)</li>
+</ul>
+<h1 id="Elektronika"><a href="#Elektronika" class="headerlink" title="Elektronika:"></a>Elektronika:</h1><ul>
+<li>Čelovka</li>
+<li>Power banka</li>
+<li>Sluchátka</li>
+<li>Rychlo nabíječka</li>
+<li>Mít odpovídající kabely s koncovkama (micro USB má čelovka, Garmin hodinky mají speciální)</li>
+<li>Voděodolná taštička na výše zmíněné</li>
+</ul>
+<h1 id="Na-horolezecky-vystup"><a href="#Na-horolezecky-vystup" class="headerlink" title="Na horolezecký výstup:"></a>Na horolezecký výstup:</h1><ul>
+<li>Helma</li>
+<li>Lano 40M s ice ochranou</li>
+<li>Alpinistický, horolezecký případně feratový sedací úvazek</li>
+<li>5 expressek lépe drátových</li>
+<li>4 delší smyce z toho nějaká vhodná i na bezpečné slaňování, resp. na to mít kyblík dále od prusíku (lze použít případně i expreska nebo lze zkrátit dlouhou)</li>
+<li>Krátká smyce na prusík &gt;&#x3D; 6mm</li>
+<li>4 karabiny, alespoň jedna 1 HMS</li>
+<li>Kyblík</li>
+<li>Odsedka</li>
+</ul>
+<h1 id="Na-ledovec"><a href="#Na-ledovec" class="headerlink" title="Na ledovec:"></a>Na ledovec:</h1><ul>
+<li>Blokant</li>
+<li>Cepín</li>
+<li>Mačky</li>
+<li>Návleky</li>
+</ul>
+<h1 id="Obleceni"><a href="#Obleceni" class="headerlink" title="Oblečení:"></a>Oblečení:</h1><ul>
+<li>Izolační minimum (podsedák, větru&#x2F;dešti odolná bunda včetně krosny, větru&#x2F;dešti odolne kalhoty, izotermická jednorázová folie)</li>
+<li>Merino věci (čepice, nákrčník, tenké rukavice, 2x trička, mikina, spodky, ponožky)</li>
+<li>Sportovní trenky, náhradní ponožky</li>
+<li>Odření odolné kalhoty a odření odolná bunda na lezení</li>
+<li>Dobré rukavice, které nemusí být tak dobré, pokud se to nich vejdou ty tenčí merino</li>
+<li>Taška na špínu</li>
+</ul>
+<h1 id="Lekarnicka"><a href="#Lekarnicka" class="headerlink" title="Lékárnička:"></a>Lékárnička:</h1><ul>
+<li>Dezinfenkční polštářky nebo dezinfekci ve spreji</li>
+<li>Náplasti včetně velkých kulatých gelových na paty</li>
+<li>Kompresní obinadlo</li>
+<li>Betadinová mast</li>
+<li>Cestovní smekta</li>
+<li>Pytlíčky &#x2F; prášky magnesium</li>
+<li>Iontový nápoj</li>
+</ul>
+<h1 id="Usporadani-veci-v-krosne"><a href="#Usporadani-veci-v-krosne" class="headerlink" title="Uspořádání věcí v krosně:"></a>Uspořádání věcí v krosně:</h1><ul>
+<li>Uzavíratelné pytlíky na malé věci</li>
+</ul>
+<h1 id="Na-piti"><a href="#Na-piti" class="headerlink" title="Na pití:"></a>Na pití:</h1><ul>
+<li>Vak na vodu, který ušetří čas strávený zastavováním a vyndaváním láhve a to s ochranou proti zamrznutí na hadičku</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">Všechny články na tomto blogu jsou, pokud není uvedeno jinak, zveřejněny pod licencí <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/planovani/">plánování</a><a class="post-meta__tags" href="/tags/vybaveni/">vybavení</a></div><!-- include includes/third-party/share/index.pug--></div><nav class="pagination-post" id="pagination"></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar-anna.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Anna Lysková</div><div class="author-info-description"></div><a id="card-info-btn-strava" target="_blank" rel="noopener" href="https://www.strava.com/athletes/86615237"><i class="fab fa-strava"></i><span>Strava</span></a></div><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar-lukas.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Lukáš Drahník</div><div class="author-info-description"></div><a id="card-info-btn-instagram" target="_blank" rel="noopener" href="https://www.instagram.com/ldrahnik/"><i class="fab fa-instagram"></i><span>Instagram</span></a></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Potreba-pravidelne-kontrolovat"><span class="toc-number">1.</span> <span class="toc-text">Potřeba pravidelně kontrolovat:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Predem-potreba-zajit"><span class="toc-number">2.</span> <span class="toc-text">Předem potřeba zajít:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Predem-potreba-zaridit"><span class="toc-number">3.</span> <span class="toc-text">Předem potřeba zařídit:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Par-dni-pred-odjezdem"><span class="toc-number">4.</span> <span class="toc-text">Pár dní před odjezdem:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Den-pred-odjezdem-potreba-zkontrolovat"><span class="toc-number">5.</span> <span class="toc-text">Den před odjezdem potřeba zkontrolovat:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Tesne-pred-odjezdem"><span class="toc-number">6.</span> <span class="toc-text">Těsně před odjezdem:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Pred-kazdym-vystupem"><span class="toc-number">7.</span> <span class="toc-text">Před každým výstupem:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Na-chatu"><span class="toc-number">8.</span> <span class="toc-text">Na chatu:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Elektronika"><span class="toc-number">9.</span> <span class="toc-text">Elektronika:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Na-horolezecky-vystup"><span class="toc-number">10.</span> <span class="toc-text">Na horolezecký výstup:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Na-ledovec"><span class="toc-number">11.</span> <span class="toc-text">Na ledovec:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Obleceni"><span class="toc-number">12.</span> <span class="toc-text">Oblečení:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Lekarnicka"><span class="toc-number">13.</span> <span class="toc-text">Lékárnička:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Usporadani-veci-v-krosne"><span class="toc-number">14.</span> <span class="toc-text">Uspořádání věcí v krosně:</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Na-piti"><span class="toc-number">15.</span> <span class="toc-text">Na pití:</span></a></li></ol></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By <a href="https://github.com/ldrahnik" target="_blank">Lukáš Drahník</a> & <a href="" target="_blank">Anna Lysková</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
